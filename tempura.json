@@ -1,0 +1,12 @@
+{
+  "generator": {
+    "rules": [
+      {
+        "match": ".*[.]md",
+        "generator": "handlebars",
+        "export_extension": "html",
+        "template": "src/templates/page.html.hbs"
+      }
+    ]
+  }
+}
