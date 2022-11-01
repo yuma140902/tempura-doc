@@ -8,7 +8,4 @@ title: Tempura Documentation
 
 This document itself is built with Tempura.
 
-## Select Language
-
-- [English](en/index.html)
-- [日本語](ja/index.html)
+**English translation is currently being prepared.**
