@@ -18,7 +18,7 @@ title: Tempura ドキュメント
 
 - [Handlebars テンプレート内で使用できるデータ](handlebars-data-list.html)
 
-## [設定ファイル tempura.json のフォーマット](tempura-json.html)
+## [設定ファイル`tempura.json`のフォーマット](tempura-json.html)
 
 ## [コマンドラインオプション](cli.html)
 
