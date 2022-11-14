@@ -8,7 +8,7 @@ title: How-to
 
 ### JavaScriptを使用したい
 
-TODO
+Handlebarsテンプレート内で&lt;script&gt;タグを書くことができます。JavaScriptを別ファイルにしておく場合は、jsファイルをpagesディレクトリに置きます。必要に応じてresolveヘルパーを使用します。
 
 ### NPMで公開されているライブラリを使用したい
 
@@ -40,6 +40,8 @@ Tempuraはパッケージマネージャではないため、`npm install`のよ
 ```
 
 ### Reactを使用したい
+
+TODO
 
 ### JSXを使用したい
 
