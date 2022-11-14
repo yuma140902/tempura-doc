@@ -8,18 +8,18 @@ title: Tempura ドキュメント
 
 このドキュメント自体もTempuraを用いて生成されています。
 
-## [クイックスタート](quick-start.html)
+## [クイックスタート(準備中)](quick-start.html)
 
-## [概念](concepts.html)
+## [概念(準備中)](concepts.html)
 
-- [Generator の一覧](generator-list.html)
+- [Generator の一覧(準備中)](generator-list.html)
 
-- [Handlebars テンプレート内で使用できるヘルパー](handlebars-helper-list.html)
+- [Handlebars テンプレート内で使用できるヘルパー(準備中)](handlebars-helper-list.html)
 
-- [Handlebars テンプレート内で使用できるデータ](handlebars-data-list.html)
+- [Handlebars テンプレート内で使用できるデータ(準備中)](handlebars-data-list.html)
 
-## [設定ファイル`tempura.json`のフォーマット](tempura-json.html)
+## [設定ファイル`tempura.json`のフォーマット(準備中)](tempura-json.html)
 
-## [コマンドラインオプション](cli.html)
+## [コマンドラインオプション(準備中)](cli.html)
 
 ## [How-to](howto.html)
