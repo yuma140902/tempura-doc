@@ -21,3 +21,5 @@ title: Tempura ドキュメント
 ## [設定ファイル tempura.json のフォーマット](tempura-json.html)
 
 ## [コマンドラインオプション](cli.html)
+
+## [How-to](howto.html)
