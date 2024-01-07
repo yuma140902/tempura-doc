@@ -29,8 +29,8 @@
   --color-bluegray-800: hsl(240deg, 4%, 20%);
   --color-bluegray-900: hsl(240deg, 4%, 10%);
 
-  --color-background:                var(--color-bluegray-900);
-  --color-codeblock:                 var(--color-gray-800);
+  --color-background:                var(--color-bluegray-800);
+  --color-codeblock:                 var(--color-gray-700);
   --color-shadow:                    var(--color-gray-900);
   --color-sidebar-background:        var(--color-bluegray-750);
   --color-text-dimmed:               var(--color-bluegray-400);
@@ -364,6 +364,7 @@ h2.ui-icon-text > .material-symbols-rounded {
   box-sizing: content-box;
 }
 .markdown pre,
+.markdown code:not(pre > code),
 .markdown tt {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,
     monospace;
