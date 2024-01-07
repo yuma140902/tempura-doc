@@ -31,10 +31,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Tempura
-        uses: baptiste0928/cargo-install@v1.3.0
-        with:
-          crate: tempura
-      - run: tempura build
+        run: |
+          wget https://github.com/yuma140902/tempura/releases/latest/download/tempura-x86_64-unknown-linux-musl.tar.gz
+          tar xvf tempura-x86_64-unknown-linux-musl.tar.gz 
+          chmod +x tempura
+      - run: ./tempura build
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
