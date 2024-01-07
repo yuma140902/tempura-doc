@@ -5,22 +5,17 @@ lang: ja
 
 # Tempura
 
-[Tempura](https://github.com/yuma140902/tempura)はRust製のSSG(Static Site Generator)です。マークダウン記法のファイル、HandlebarsテンプレートからHTMLを生成することができます。画像ファイルやCSSファイルなどの静的コンテンツも取り扱えます。また、ファイルパスを適切に変換する機能があります。
+[Tempura](https://github.com/yuma140902/tempura)はRust製のパイプラインベースの静的サイトジェネレーターです。
+パイプラインを定義して、Markdown、JSON、プレーンテキスト、Handlebarsテンプレート、画像など様々なリソースをもとにウェブサイトを生成することができます。
 
 このドキュメント自体もTempuraを用いて生成されています。
 
-## [クイックスタート(準備中)](quick-start.html)
+## [Getting Started(準備中)](getting-started/)
 
-## [概念(準備中)](concepts.html)
+## [概念(準備中)](concepts/)
 
-- [Generator の一覧(準備中)](generator-list.html)
+## [API(準備中)](api/)
 
-- [Handlebars テンプレート内で使用できるヘルパー(準備中)](handlebars-helper-list.html)
+## [コマンドラインオプション(準備中)](cli/)
 
-- [Handlebars テンプレート内で使用できるデータ(準備中)](handlebars-data-list.html)
-
-## [設定ファイル`tempura.json`のフォーマット(準備中)](tempura-json.html)
-
-## [コマンドラインオプション(準備中)](cli.html)
-
-## [How-to](howto.html)
+## [How-to](how-to/)
