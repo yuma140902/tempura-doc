@@ -75,3 +75,11 @@ function isVisible(element) {
   var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
   return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
 }
+
+function changeLanguage(lang) {
+  const current_url = window.location.href;
+  const new_url = current_url
+    .replace("/ja/", "/" + lang + "/")
+    .replace("/en/", "/" + lang + "/");
+  window.location.href = new_url;
+}

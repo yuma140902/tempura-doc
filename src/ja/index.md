@@ -1,5 +1,6 @@
 ---
 title: Tempura ドキュメント
+lang: ja
 ---
 
 # Tempura

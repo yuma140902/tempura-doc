@@ -1,5 +1,6 @@
 ---
 title: How-to
+lang: ja
 ---
 
 # How-to

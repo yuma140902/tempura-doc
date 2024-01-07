@@ -1,5 +1,6 @@
 ---
 title: Tempura Documentation
+lang: en
 ---
 
 # Tempura
