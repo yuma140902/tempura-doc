@@ -1,0 +1,44 @@
+pipelines:
+  - name: markdown to html
+    entry:
+      match:
+        type: Regex
+        regex: ".*[.]md$"
+      with:
+        loader: TextWithFrontmatter
+
+    steps:
+      - type: Load
+        path: src/templates/page.html.hbs
+        key: main_template
+        with:
+          loader: Template
+
+      - type: Transform
+        input: entry
+        output: result
+        with:
+          transformer: TemplateRenderer
+          template_key: main_template
+          current_directory:
+            type: Path
+            path: ./src/templates
+
+    output_key: result
+    output_extension: html
+
+  - name: static resources
+    entry:
+      match:
+        type: All
+        matchers:
+          - type: Regex
+            regex: ".*"
+          - type: Not
+            matcher:
+              type: Regex
+              regex: "/templates/"
+      with:
+        loader: Blob
+    steps: []
+    output_key: entry
