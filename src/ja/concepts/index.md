@@ -18,7 +18,7 @@ Pipelineは複数の入力を持つことができます。例えばJSONデー�
 
 ## Resource
 
-Entry以外のPipelineの入力をResourceと呼びます。先の例ではテンプレートファイルがResourceに当たります。ResourceはEntryとは異なり、複数あってもよいです。
+Entry以外のPipelineの入力をResourceと呼びます。先の例ではテンプレートファイルがResourceに当たります。ResourceはEntryとは異なり複数あってもよいです。
 
 ## Job
 
