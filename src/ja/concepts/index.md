@@ -30,7 +30,7 @@ PipelineとJobはちょうどプログラムとプロセスのような関係で
 
 ## Store
 
-Jobの実行に必要な情報はすべてStoreと呼ばれるものに格納されます。Storeはキーを文字列、バリューをValueとするkey-valueストアです。
+Jobの実行に必要な情報はすべてStoreと呼ばれるものに格納されます。Storeはキーを文字列、バリューをValueとするkey-valueストアです。Storeの内容はJobごとに独立しています。
 
 ## Value
 
