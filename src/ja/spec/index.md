@@ -1,9 +1,7 @@
 ---
-title: API
+title: 仕様
 lang: ja
 ---
-
-# API
 
 - [`tempura.yml`のフォーマット](tempura-yml/)
 - [Loaderの一覧](loaders/)

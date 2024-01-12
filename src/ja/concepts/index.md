@@ -65,15 +65,15 @@ StepはPipelineが実行する処理1つ1つのことです。`Load`、`Transfor
 
 Loaderの一覧は以下を参照してください。
 
-[Loaderの一覧](/tempura-doc/ja/api/loaders/)
+[Loaderの一覧](/tempura-doc/ja/spec/loaders/)
 
 ## Transformer
 
-Valueを読み込み、別のValueを返すものです。入力となるValueは1つですが、複数のValueを合成する構文があるため実質的に複数の入力を受け付けることができます(詳細は[`tempura.yml`のフォーマット](/tempura-doc/ja/api/tempura-yml/)を参照)。
+Valueを読み込み、別のValueを返すものです。入力となるValueは1つですが、複数のValueを合成する構文があるため実質的に複数の入力を受け付けることができます(詳細は[`tempura.yml`のフォーマット](/tempura-doc/ja/spec/tempura-yml/)を参照)。
 
 Transformerの一覧は以下を参照してください。
 
-[Transformerの一覧](/tempura-doc/ja/api/transformers/)
+[Transformerの一覧](/tempura-doc/ja/spec/transformers/)
 
 ## Helper
 
@@ -85,4 +85,4 @@ Handlebarsでは`{{hoge}}`のような構文を用いて変数を展開する他
 
 その一覧は以下を参照してください。
 
-[Helperの一覧](/tempura-doc/ja/api/helpers/)
+[Helperの一覧](/tempura-doc/ja/spec/helpers/)

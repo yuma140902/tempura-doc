@@ -10,9 +10,9 @@ lang: ja
 
 ## [Getting Started(準備中)](getting-started/)
 
-## [概念(準備中)](concepts/)
+## [概念](concepts/)
 
-## [API](api/)
+## [仕様](spec/)
 
 ## [コマンドラインオプション(準備中)](cli/)
 
