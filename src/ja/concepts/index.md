@@ -61,7 +61,7 @@ StepはPipelineが実行する処理1つ1つのことです。`Load`、`Transfor
 
 ## Loader
 
-ファイルを読み込み、Valueにするものです。Valueの型はLoaderによって異なります。例えばTextLoaderならString型、BlobLoaderならBytes型です。
+ファイルを読み込み、Valueを返すものです。Valueの型はLoaderによって異なります。例えばTextLoaderならString型、BlobLoaderならBytes型です。
 
 Loaderの一覧は以下を参照してください。
 
