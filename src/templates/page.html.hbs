@@ -49,6 +49,13 @@
       <div id="mf-container" class="ui-stack ui-stretch">
         <main id="main" class="ui-stretch">
           <div class="markdown">
+            <h1>{{front.title}}</h1>
+            {{#if front.date}}
+              最終更新: {{front.date}}<br>
+            {{/if}}
+            {{#if front.version}}
+              対応バージョン: {{front.version}}
+            {{/if}}
             {{{md2html content}}}
           </div>
         </main>

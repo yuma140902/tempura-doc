@@ -3,8 +3,6 @@ title: Tempura ドキュメント
 lang: ja
 ---
 
-# Tempura
-
 [Tempura](https://github.com/yuma140902/tempura)はRust製のパイプラインベースの静的サイトジェネレーターです。
 パイプラインを定義して、Markdown、JSON、プレーンテキスト、Handlebarsテンプレート、画像など様々なリソースをもとにウェブサイトを生成することができます。
 

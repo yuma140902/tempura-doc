@@ -1,9 +1,8 @@
 ---
 title: How-to
 lang: ja
+version: v0.3.0
 ---
-
-# How-to
 
 ## JavaScript・フレームワーク
 
