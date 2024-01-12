@@ -10,4 +10,4 @@ version: v0.5.0
 - [Store](store/)
 - [Loaderの一覧](loaders/)
 - [Transformerの一覧](transformers/)
-- [Helperの一覧](helper/)
+- [Helperの一覧](helpers/)
